@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cbd</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+
+</head>
+<body>
+    <header id="home" class="header">
+
+        <div class="header__gradient">
+
+            <div class="header__nav">
+
+                <div id="navMenu" class="header__menu">
+                    <a href="#home" class="header__menu-link selected">HOME</a>
+                    <a href="#products" class="header__menu-link">PRODUCTS</a>
+                    <a href="#faqs" class="header__menu-link">FAQS</a>
+                    <a href="#contact" class="header__menu-link">CONTACT US</a>
+                </div>
+
+                <a href="#home" class="header__logo">CBD</a>
+
+                <div class="header__user-menu">
+
+                    <div class="header__login">LOGIN</div>
+
+                    <div class="header__search"><span class="header__search-icon"></span> SEARCH</div>
+                    <form action="javascript:void(0);" class="header__search-form">
+                        <input class="header__search-field" type="text" placeholder="Find it" name="" id="">
+                        <button class="header__search-btn" type="submit">GO</button>
+                    </form>
+                    <div class="header__cart">CART (<span id="count">0</span>)</div>
+
+                </div>
+
+            </div>
+
+            <div class="mainer">
+                <div class="header__intro">
+
+                    <h1 class="header__title">Enhancing Life <br>
+                        Excelling in Care</h1>
+                    <div class="header__sub-title">Choose Wisely. Choose CBD.</div>
+                    <button class="header__btn"><a class="header__btn-link" href="#products">Start Shopping</a></button>
+                    <a href="#products" class="header__products">See all products <span class="arrow"></span></a>
+
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="header__scroll-btn"></a>
+        <div class="header__position"><span class="header__position--line"></span> CBD Potion health</div>
+
+    </header>
+
+    <div id="about" class="about">
+
+        <div class="mainer">
+
+            <div class="about__we-are">
+                <div class="about__main-title">We are what we are</div>
+                <img class="about__logos" src="images/Logos.png">
+            </div>
+
+            <div class="about__tab">
+                <button class="about__tablinks active" onclick="tabChange(event, 'what')">WHAT IS CBD?</button>
+                <button class="about__tablinks" onclick="tabChange(event, 'benefits')">BENEFITS</button>
+                <button class="about__tablinks" onclick="tabChange(event, 'our')">OUR DIFFERENCE</button>
+            </div>
+
+            <div id="what" class="about__tabcontent">
+                <div class="about__description">
+                    <h3 class="about__title">WHAT IT IS AND HOW <br> IT WORKS</h3>
+                    <p class="about__text">CBD is short for cannabidiol. It is a phytocannabinoid found in hemp and
+                        known for supporting the
+                        body and mind in many
+                        ways. Charlotte’s Web products have cannabinoids with CBD extract.</p>
+                    <p class="about__text">Not to be confused with oil from hemp seeds (which doesn’t contain
+                        cannabinoids), CBD comes from
+                        the flowers and leaves
+                        of the hemp plant.</p>
+                    <p class="about__text">Why does CBD work? The human body has a vast network of receptors, the
+                        endocannabinoid system.
+                    </p>
+                </div>
+                <div class="about__gallery">
+                    <img class="about__img" src="images/about-img.jpg" alt="">
+                    <img class="about__img" src="images/about-img2.jpg" alt="">
+                </div>
+            </div>
+
+            <div id="benefits" class="about__tabcontent">
+                <div class="about__description">
+                    <h3 class="about__title">WHAT IT IS AND HOW <br> IT WORKS</h3>
+                    <p class="about__text">CBD is short for cannabidiol. It is a phytocannabinoid found in hemp and
+                        known for supporting the
+                        body and mind in many
+                        ways. Charlotte’s Web products have cannabinoids with CBD extract.</p>
+                    <p class="about__text">Not to be confused with oil from hemp seeds (which doesn’t contain
+                        cannabinoids), CBD comes from
+                        the flowers and leaves
+                        of the hemp plant.</p>
+                    <p class="about__text">Why does CBD work? The human body has a vast network of receptors, the
+                        endocannabinoid system.
+                    </p>
+                </div>
+                <div class="about__gallery">
+                    <img class="about__img" src="images/about-img.jpg" alt="">
+                    <img class="about__img" src="images/about-img2.jpg" alt="">
+                </div>
+            </div>
+
+            <div id="our" class="about__tabcontent">
+                <div class="about__description">
+                    <h3 class="about__title">WHAT IT IS AND HOW <br> IT WORKS</h3>
+                    <p class="about__text">CBD is short for cannabidiol. It is a phytocannabinoid found in hemp and
+                        known for supporting the
+                        body and mind in many
+                        ways. Charlotte’s Web products have cannabinoids with CBD extract.</p>
+                    <p class="about__text">Not to be confused with oil from hemp seeds (which doesn’t contain
+                        cannabinoids), CBD comes from
+                        the flowers and leaves
+                        of the hemp plant.</p>
+                    <p class="about__text">Why does CBD work? The human body has a vast network of receptors, the
+                        endocannabinoid system.
+                    </p>
+                </div>
+                <div class="about__gallery">
+                    <img class="about__img" src="images/about-img.jpg" alt="">
+                    <img class="about__img" src="images/about-img2.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="products" class="products">
+        <div class="products__title">CBD Featured Products</div>
+
+        <div class="products__carousel">
+
+            <div>
+                <div class="products__frame">
+                    <div class="products__rating"></div>
+                    <p class="products__name">CBD 500 mg Orange Flavor Tincture</p>
+                    <img class="products__image" src="images/product1.png">
+                </div>
+                <div class="products__buy">
+                    <div class="products__price">$49.99 USD</div>
+                    <button onclick="buy(event)" class="products__buy-btn">Shop</button>
+                </div>
+            </div>
+
+            <div>
+                <div class="products__frame">
+                    <div class="products__rating"></div>
+                    <p class="products__name">Black ICE CBD Muscle Rub 200 mg</p>
+                    <img class="products__image" src="images/product2.png">
+                </div>
+                <div class="products__buy">
+                    <div class="products__price">$49.99 USD</div>
+                    <button onclick="buy(event)" class="products__buy-btn">Shop</button>
+                </div>
+            </div>
+
+            <div>
+                <div class="products__frame">
+                    <div class="products__rating"></div>
+                    <p class="products__name">CBD+Curcumin Coffee 750 mg</p>
+                    <img class="products__image" src="images/product3.png">
+                </div>
+                <div class="products__buy">
+                    <div class="products__price">$49.99 USD</div>
+                    <button onclick="buy(event)" class="products__buy-btn">Shop</button>
+                </div>
+            </div>
+
+            <div>
+                <div class="products__frame">
+                    <div class="products__rating"></div>
+                    <p class="products__name">CBD 500 mg Orange Flavor Tincture</p>
+                    <img class="products__image" src="images/product1.png">
+                </div>
+                <div class="products__buy">
+                    <div class="products__price">$49.99 USD</div>
+                    <button onclick="buy(event)" class="products__buy-btn">Shop</button>
+                </div>
+            </div>
+
+            <div>
+                <div class="products__frame">
+                    <div class="products__rating"></div>
+                    <p class="products__name">Black ICE CBD Muscle Rub 200 mg</p>
+                    <img class="products__image" src="images/product2.png">
+                </div>
+                <div class="products__buy">
+                    <div class="products__price">$49.99 USD</div>
+                    <button onclick="buy(event)" class="products__buy-btn">Shop</button>
+                </div>
+            </div>
+
+            <div>
+                <div class="products__frame">
+                    <div class="products__rating"></div>
+                    <p class="products__name">CBD+Curcumin Coffee 750 mg</p>
+                    <img class="products__image" src="images/product3.png">
+                </div>
+                <div class="products__buy">
+                    <div class="products__price">$49.99 USD</div>
+                    <button onclick="buy(event)" class="products__buy-btn">Shop</button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div id="faqs" class="questions">
+        <div class="questions__title">Frequently asked questions</div>
+
+        <div class="questions__accordeon">
+            <button class="questions__accordion-cell">What is Cannabidiol (CBD)?</button>
+            <div class="questions__accordion-content">
+                <p class="questions__text">Because CBD from hemp has no psychoactive effects, the purchase, sales, or
+                    possession of hemp CBD
+                    products are
+                    completely legal in all 50 States.</p>
+            </div>
+
+            <button class="questions__accordion-cell">Is Hemp-Derived Cannabidiol (CBD) Legal?</button>
+            <div class="questions__accordion-content">
+                <p class="questions__text">Because CBD from hemp has no psychoactive effects, the purchase, sales, or
+                    possession of hemp CBD
+                    products are
+                    completely legal in all 50 States.</p>
+            </div>
+
+            <button class="questions__accordion-cell">Are there any negative side effects?</button>
+            <div class="questions__accordion-content">
+                <p class="questions__text">Because CBD from hemp has no psychoactive effects, the purchase, sales, or
+                    possession of hemp CBD
+                    products are
+                    completely legal in all 50 States.</p>
+            </div>
+
+            <button class="questions__accordion-cell">Do you offer a return policy?</button>
+            <div class="questions__accordion-content">
+                <p class="questions__text">Because CBD from hemp has no psychoactive effects, the purchase, sales, or
+                    possession of hemp CBD
+                    products are
+                    completely legal in all 50 States.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="testimonials">
+
+        <div class="testimonials__carousel">
+
+
+            <div class="testimonials__frame">
+                <div class="testimonials__bg1">
+                    <div class="testimonials__gradient">
+                        <div class="testimonials__rating"></div>
+                        <p class="testimonials__text">I have tried another product after using this one successfully,
+                            and I am Back for good! The flavour, the lightness of
+                            the oil and the health benefits I have gotten with this oil are amazing!</p>
+                        <span class="testimonials__author">Mark J.</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="testimonials__frame">
+                <div class="testimonials__bg2">
+                    <div class="testimonials__gradient">
+                        <div class="testimonials__rating"></div>
+                        <p class="testimonials__text">I have tried another product after using this one successfully,
+                            and I am Back for good! The flavour, the lightness of
+                            the oil and the health benefits I have gotten with this oil are amazing!</p>
+                        <span class="testimonials__author">Mark J.</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="testimonials__frame">
+                <div class="testimonials__bg3">
+                    <div class="testimonials__gradient">
+                        <div class="testimonials__rating"></div>
+                        <p class="testimonials__text">I have tried another product after using this one successfully,
+                            and I am Back for good! The flavour, the lightness of
+                            the oil and the health benefits I have gotten with this oil are amazing!</p>
+                        <span class="testimonials__author">Mark J.</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="testimonials__frame">
+                <div class="testimonials__bg4">
+                    <div class="testimonials__gradient">
+                        <div class="testimonials__rating"></div>
+                        <p class="testimonials__text">I have tried another product after using this one successfully,
+                            and I am Back for good! The flavour, the lightness of
+                            the oil and the health benefits I have gotten with this oil are amazing!</p>
+                        <span class="testimonials__author">Mark J.</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <footer id="contact" class="footer">
+
+        <div class="mainer">
+            <div class="footer__content">
+                <div class="footer__aSide">
+                    <div class="footer__line"></div>
+                    <p class="footer__text">Privacy Policy <br>
+                        Terms of Use <br>
+                        Return Policy</p>
+                </div>
+                <div class="footer__subscribe">
+                    <div class="footer__logo">CBD</div>
+                    <div class="footer__social">
+                        <a href="javascript:void(0);" class="footer__link">
+                            <svg class="footer__icon">
+                                <use xlink:href="images/sprite.svg#icon-face"></use>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0);" class="footer__link">
+                            <svg class="footer__icon">
+                                <use xlink:href="images/sprite.svg#icon-twitt"></use>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0);" class="footer__link">
+                            <svg class="footer__icon">
+                                <use xlink:href="images/sprite.svg#icon-yt"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer__split"></div>
+                    <h3 class="footer__title">Subscribe to Newsletter</h3>
+                    <form action="javascript:void(0);" class="footer__form">
+                        <input class="footer__input" placeholder="Email" type="email" name="mail" id="mail" required>
+                        <button type="submit" class="footer__btn"></button>
+                    </form>
+                    <div class="footer__copyrights">© 2018. CbD health.</div>
+                </div>
+                <div class="footer__aSide">
+                    <div class="footer__line"></div>
+                    <p class="footer__text">SHIPPING INFO <br>
+                        RETURNS / EXCHANGES <br>
+                        CONTACT</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
